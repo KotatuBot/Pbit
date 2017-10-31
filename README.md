@@ -166,4 +166,4 @@ In [21]: checksum.calculate_checksum(hex_list,"UDP")
 Out[21]: '0xb2b7'
 ```
 # Author
-[kotatsu](http://github/kotatsu)
+[KotatuBot](http://github/KotatuBot)
