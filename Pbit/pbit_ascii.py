@@ -57,9 +57,3 @@ class Pbit_ASCII():
         # Convert ascii codes         
         Ascii_list=self.convert_ascii(hex_list,return_types)
         return Ascii_list
- 
-if __name__ == "__main__":
-    pbit_ascii = Pbit_ASCII()
-    asciis = pbit_ascii.pbit_asciis("3d4142")
-    print(asciis)
-    
