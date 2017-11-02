@@ -1,6 +1,7 @@
 #!/bin/python
 #-*-coding:utf-8-*-
 import Pbit.pbit_processing
+import sys
 
 class Pbit_ASCII():
     """
@@ -57,3 +58,28 @@ class Pbit_ASCII():
         # Convert ascii codes         
         Ascii_list=self.convert_ascii(hex_list,return_types)
         return Ascii_list
+
+    def ascii_hex(self,strings):
+        """
+        Fuction to create from ascii to hex
+
+        Args:
+            strings: string data
+
+        return:
+            hex_list: hex list
+                      ["0x54","0x45","0x53","0x54"]
+        """
+
+        hex_list = []
+        try:
+            for charcture in strings:
+                chars = ord(charcture)
+                hex_list.append(hex(chars))
+        except TypeError:
+            sys.exit("argument is not string")
+
+        return hex_list
+
+
+        
