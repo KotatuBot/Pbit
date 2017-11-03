@@ -59,10 +59,10 @@ computation of the checksum in IP · TCP · UDP, and inversion of the bit string
         A function that creates a four-delimited hexadecimal list from two hexadecimal lists
 
 + Pbit.pbit_ascii.py
-   +  pbit_asciis(Decimal,return_types="List")
+   +  **pbit_asciis(Decimal)**
 
         Function to convert hexadecimal binary to ASCII code
-   +  ascii_hex(strings)
+   +  **ascii_hex(strings)**
 
         Function to convert ASCII characters to hexadecimal list
 
