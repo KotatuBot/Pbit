@@ -57,6 +57,15 @@ computation of the checksum in IP · TCP · UDP, and inversion of the bit string
    + **align_to_four_digits_hex(hex_list)**  
 
         A function that creates a four-delimited hexadecimal list from two hexadecimal lists
+
++ Pbit.pbit_ascii.py
+   +  pbit_asciis(Decimal,return_types="List")
+
+        Function to convert hexadecimal binary to ASCII code
+   +  ascii_hex(strings)
+
+        Function to convert ASCII characters to hexadecimal list
+
 # Usage
 ```python
 In [1]: import Pbit.pbit_calculation
@@ -164,6 +173,13 @@ Out[19]: '0x98dc'
 In[20]:hex_list = ['0x4500', '0x0047','0x497f','0x0000','0xff11','0xdc70','0xc0a8','0x0a64','0xc0a8','0x0a01','0xee92','0x0035','0x0033','0x0000','0x1bc6','0x0100','0x0001','0x0000','0x0000','0x0000','0x0565','0x3336','0x3830','0x0464','0x7363','0x670a','0x616b','0x616d','0x6169','0x6564','0x6765','0x036e','0x6574','0x0000','0x0100']
 In [21]: checksum.calculate_checksum(hex_list,"UDP")
 Out[21]: '0xb2b7'
+
+In [1]: import Pbit.pbit_ascii
+In [2]: ascii = Pbit.pbit_ascii.Pbit_ASCII()
+In [3]: ascii.pbit_asciis("3d4142")
+Out[3]: ['=', 'A', 'B']
+In [4]: ascii.ascii_hex("=AB")
+Out[4]: ['0x3d', '0x41', '0x42']
 ```
 # Author
 [KotatuBot](https://github.com/KotatuBot)
