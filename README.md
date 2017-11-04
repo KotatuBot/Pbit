@@ -109,7 +109,6 @@ In [12]: conversion.convert_hex("0b11111111")
 Out[12]: '0xff'
 
 
-
 In [1]: import Pbit.pbit_bit_operation
 In [2]: operation = Pbit.pbit_bit_operation.Pbit_Bit_Operation()
 In [3]: operation.digit_alignment("0b1111")
@@ -181,6 +180,12 @@ Out[3]: ['=', 'A', 'B']
 In [4]: ascii.ascii_hex("=AB")
 Out[4]: ['0x3d', '0x41', '0x42']
 ```
+
+# Installation
+        $ pip install git+https://github.com/KotatuBot/Pbit
 # Author
 [KotatuBot](https://github.com/KotatuBot)
+
+# Licence
+MIT
 
