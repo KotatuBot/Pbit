@@ -187,5 +187,5 @@ Out[4]: ['0x3d', '0x41', '0x42']
 [KotatuBot](https://github.com/KotatuBot)
 
 # Licence
-MIT
+[MIT](https://github.com/KotatuBot/Pbit/blob/master/LICENSE.txt)
 
