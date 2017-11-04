@@ -22,17 +22,17 @@ class Pbit_Bit_Operation():
                           Binary --> Decimal number
             Number_of_digits: Number of digits to match
                               default -->16
-                              Value　available for 8, 16, 32, 64, 128
+                              Value　available for 4,8, 16, 32, 64, 128
 
         return:
                sixteen_digit_binay_number:　Fix to 16 digit binary number
                                             "0b00000000000000000000000000000000001"
         """
         #Number of digits is 8,16,32,64,128
-        if Number_of_digits is not 8 and Number_of_digits is not 16 \
-           and Number_of_digits is not 32 and Number_of_digits is not 64\
-           and Number_of_digits is not 128:
-           sys.exit("The number of digits is not one of 8, 16, 32, 64, 128")
+        if Number_of_digits is not 4 and Number_of_digits is not 8 \
+           and Number_of_digits is not 16 and Number_of_digits is not 32\
+           and Number_of_digits is not 64 and Number_of_digits is not 128:
+           sys.exit("The number of digits is not one of 4,8, 16, 32, 64, 128")
             
         try:
             if decimal_types == "hex":
@@ -95,7 +95,7 @@ class Pbit_Bit_Operation():
                         "0xA"
             digits: Number of digits to match
                     default -->16
-                    Value　available for 8, 16, 32, 64, 128
+                    Value　available for 4,8, 16, 32, 64, 128
 
 
         return:
