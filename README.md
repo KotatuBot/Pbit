@@ -179,10 +179,11 @@ In [3]: ascii.pbit_asciis("3d4142")
 Out[3]: ['=', 'A', 'B']
 In [4]: ascii.ascii_hex("=AB")
 Out[4]: ['0x3d', '0x41', '0x42']
-```
+
 
 # Installation
-$ pip install git+https://github.com/KotatuBot/Pbit
+
+    $ pip install git+https://github.com/KotatuBot/Pbit
 # Author
 [KotatuBot](https://github.com/KotatuBot)
 
