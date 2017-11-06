@@ -182,7 +182,7 @@ Out[4]: ['0x3d', '0x41', '0x42']
 ```
 
 # Installation
-        $ pip install git+https://github.com/KotatuBot/Pbit
+$ pip install git+https://github.com/KotatuBot/Pbit
 # Author
 [KotatuBot](https://github.com/KotatuBot)
 
